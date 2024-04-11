@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ergast F1</title>
+  <style>
+    .seasonCard{
+        background-color: blanchedalmond;
+    }
+  </style>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Ergast F1</h1>
+  <input type="text" id="searchInput" placeholder="Enter driver name...">
+  <button onclick="searchDriver()">Search</button>
+ <button onclick="fetchSeasons()">Show Seasons</button>
+  <div id="seasonInfo"></div>
+
+  <div id="driverInfo"></div>
+  <div id="errorMessage" style="color: red; display: none;">Driver not found, Try entering their last name!</div>
+ 
+  <script src="sports.js"></script>
+<footer><strong>Ergast The Best MotorSport Site</strong></footer>
+</body>
+</html>
