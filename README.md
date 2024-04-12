@@ -9,6 +9,8 @@ My project build was inspired by http://ergast.com/api/f1/drivers.json, an api t
 
 ## Installation
 To install the project use this link https://github.com/Kiama808/phase-1-project
+
+Fork and clone the repository to your local device
 ## Installation Requirements
 Git
 Browser
