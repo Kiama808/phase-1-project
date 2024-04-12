@@ -5,25 +5,24 @@
 #### By *Kelvin Kiama Muriithi*
 
 ## Description
-My project build was inspired by http://ergast.com/api/f1/drivers.json, an api that is about formula 1 motoracing. It is designed to showcase the lists of seasons before and the current one
+My project build was inspired by http://ergast.com/api/f1/drivers.json, an api that is about formula 1 motoracing. It is designed to showcase the lists of seasons before and the current one. The project also allows you to see when other races are scheduled and also display a driver's information.
 
 ## Installation
-You use git clone to be able to download the documents in the GitHub
-
+To install the project use this link https://github.com/Kiama808/phase-1-project
 ## Installation Requirements
 Git
+Browser
 
 ### Installation instruction
 ```
-Git clone https://github.com/hamida-mstafa/Triangle-tracker.git
-
+Git clone https://github.com/Kiama808/phase-1-project
 ```
 
 # Live Link
-[Git](gh-pages link)
+[Git]( https://kiama808.github.io/phase-1-project/)
 
 ## Technologies used
 HTML
-CSS
+CSS    
 Github
 Javascript

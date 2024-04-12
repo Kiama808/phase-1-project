@@ -26,7 +26,12 @@ function fetchSeasons() {
       console.error('Error fetching seasons:', error);
     });
   }
-  
+  function clearHome(){
+    const driver = document.getElementById('driverInfo');
+    const season = document.getElementById('seasonInfo'); 
+    driver.innerHtml = '';
+    season.innerHTML = '';
+  } 
   
   function fetchRaces(season) {
     const driverInfoContainer = document.getElementById('seasonInfo');
@@ -39,9 +44,11 @@ function fetchSeasons() {
       races.forEach(race => {
         const raceInfo = document.createElement('div');
         raceInfo.innerHTML = `
+        <div class='raceCard'>
           <h3>${race.raceName}</h3>
           <p>Circuit: ${race.Circuit.circuitName}</p>
           <p>Date: ${race.date}</p>
+          </div>
         `;
         driverInfoContainer.appendChild(raceInfo);
       });
