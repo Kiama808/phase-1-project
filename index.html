@@ -1,24 +1,30 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ergast F1</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8"> <!-- Character encoding -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive viewport settings -->
+  <title>Ergast F1</title> <!-- Title of the page -->
+  <link rel="stylesheet" href="style.css"> <!-- Link to external stylesheet -->
 </head>
 <body>
-<div class="bg">
-  <h1 class="meet">Formula 1</h1>
-<button class="homeButton" onclick="clearHome()">Home</button>
-  <input type="text" id="searchInput" placeholder="Enter driver name...">
+<div class="bg"> <!-- Main container with background -->
+  <h1 class="meet">Formula 1</h1> <!-- Main heading -->
+  <button class="homeButton" onclick="clearHome()">Home</button> <!-- Home button -->
+  <input type="text" id="searchInput" placeholder="Enter driver name..."> <!-- Input field for entering driver name -->
   
-  <button class="searchBtn" onclick="searchDriver()">Search</button>
- <button class='seasonBtn' onclick="fetchSeasons()">Show Seasons</button>
-  <div id="seasonInfo"></div>
-  <div id="driverInfo"></div>
+  <button class="searchBtn" onclick="searchDriver()">Search</button> <!-- Search button -->
+  <button class='seasonBtn' onclick="fetchSeasons()">Show Seasons</button> <!-- Button to display seasons -->
+  
+  <!-- Container to display season information -->
+  <div id="seasonInfo"></div> 
+  
+  <!-- Container to display driver information -->
+  <div id="driverInfo"></div> 
+  
+  <!-- Error message display area (hidden by default) -->
   <div id="errorMessage" style="color: red; display: none;">Driver not found, Try entering their last name!</div>
  
+  <!-- Reference to external JavaScript file -->
   <script src="sports.js"></script>
 </div>
 </body>
